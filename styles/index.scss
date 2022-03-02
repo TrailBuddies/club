@@ -27,8 +27,8 @@ body {
 	justify-content: center;
 	align-items: center;
 
-  color: white;
-  font-weight: bolder;
+  color: rgba(230, 81, 0, 1);
+  text-shadow: 0 3px 8px black;
 
 	background-image: url('/images/bg-tall.jpg');
 	background-size: cover;
@@ -46,6 +46,10 @@ body {
 
 		padding: 20px 0;
 	}
+
+  & > p {
+    font-weight: 999;
+  }
 }
 
 main {
