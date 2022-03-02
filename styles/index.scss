@@ -1,7 +1,7 @@
 @import './fonts.scss';
 
 body {
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	background-color: rgba(230, 81, 0, 1);
 	margin: 0;
 	padding: 0;
@@ -26,6 +26,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+  color: white;
+  font-weight: bolder;
 
 	background-image: url('/images/bg-tall.jpg');
 	background-size: cover;
