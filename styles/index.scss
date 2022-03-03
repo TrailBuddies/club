@@ -16,13 +16,6 @@ a {
 	}
 }
 
-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 #container {
 	display: flex;
 	flex-direction: row;
@@ -37,7 +30,7 @@ main {
 	}
 }
 
-#image {
+header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -66,4 +59,11 @@ main {
 	& > p {
 		font-weight: 999;
 	}
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
