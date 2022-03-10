@@ -1,0 +1,17 @@
+@import './fonts.scss';
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: rgba(230, 81, 0, 1);
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
