@@ -32,3 +32,19 @@
 | postcss-sass | `"^0.5.0"` | [README](https://github.com/AleshaOleg/postcss-sass#readme) |
 | cssnano | `"^5.1.0"` | [Guide](https://cssnano.co/docs/introduction/) |
 | autoprefixer | `"^10.4.2"` | [Usage](https://github.com/postcss/autoprefixer#usage) |
+
+## Development
+### Install Dependencies
+```bash
+yarn install
+```
+
+### Run Development Server
+```bash
+yarn dev
+```
+
+### Create Production Build
+```bash
+yarn build
+```
